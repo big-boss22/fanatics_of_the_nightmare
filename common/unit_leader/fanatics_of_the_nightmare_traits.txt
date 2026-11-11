@@ -1,0 +1,19 @@
+leader_traits = {
+    mercenary_commanderfotn = {
+        type = field_marshal
+        trait_type = personality_trait
+        gain_xp = {
+            always = no
+        }
+        modifier = {
+            equipment_capture_factor = 0.80
+            experience_loss_factor = -0.50
+        }
+        non_shared_modifier = {
+            wounded_chance_factor = 0.25
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+}

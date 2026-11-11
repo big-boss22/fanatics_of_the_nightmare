@@ -1,0 +1,103 @@
+focus_tree = {
+    id = new_focus_tree_2
+    default = no
+    country = {
+        factor = 0
+        modifier = {
+            add = 1000
+            tag = PCB
+        }
+    }
+    continuous_focus_position = { x = 898 y = 162 }
+
+    focus = {
+        id = my_hoi4_mod_new_focus_tree_1_
+        icon = GFX_goal_fanatics_of_the_nightmare_my_hoi4_mod_new_focus_tree_1_
+        x = 35
+        y = 7
+        cost = 2
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = my_hoi4_mod_new_focus_tree_2_focus_2_copy
+        icon = GFX_goal_fanatics_of_the_nightmare_my_hoi4_mod_new_focus_tree_2_focus_2_copy
+        x = 35
+        y = 8
+        cost = 5
+        prerequisite = { focus = my_hoi4_mod_new_focus_tree_1_ }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = my_hoi4_mod_new_focus_tree_2_focus_4_copy
+        icon = GFX_goal_fanatics_of_the_nightmare_my_hoi4_mod_new_focus_tree_2_focus_4_copy
+        x = 35
+        y = 9
+        cost = 5
+        prerequisite = { focus = my_hoi4_mod_new_focus_tree_2_focus_2_copy }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = my_hoi4_mod_new_focus_tree_2_focus_7_copy
+        icon = GFX_goal_fanatics_of_the_nightmare_my_hoi4_mod_new_focus_tree_2_focus_7_copy
+        x = 35
+        y = 10
+        cost = 2
+        prerequisite = { focus = my_hoi4_mod_new_focus_tree_2_focus_4_copy }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = fanatics_of_the_nightmare_new_focus_tree_2_focus_7_copy
+        icon = GFX_goal_fanatics_of_the_nightmare_fanatics_of_the_nightmare_new_focus_tree_2_focus_7_copy
+        x = 36
+        y = 11
+        cost = 10
+        prerequisite = { focus = my_hoi4_mod_new_focus_tree_2_focus_7_copy }
+        mutually_exclusive = { focus = fanatics_of_the_nightmare_new_focus_tree_2_focus_8_copy }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = fanatics_of_the_nightmare_new_focus_tree_2_focus_8_copy
+        icon = GFX_goal_fanatics_of_the_nightmare_fanatics_of_the_nightmare_new_focus_tree_2_focus_8_copy
+        x = 34
+        y = 11
+        cost = 10
+        prerequisite = { focus = my_hoi4_mod_new_focus_tree_2_focus_7_copy }
+        mutually_exclusive = { focus = fanatics_of_the_nightmare_new_focus_tree_2_focus_7_copy }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+}

@@ -1,0 +1,25 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_goal_my_hoi4_mod_new_gfx_asset
+        texturefile = "gfx/interface/hmb_gfx/fanatics_of_the_nightmare/fanatics_of_the_nightmare_e890ed7d430d4376a3ff064b25f8aeee.dds"
+        legacy_lazy_load = no
+    }
+    spriteType = {
+        name = GFX_goal_my_hoi4_mod_new_gfx_asset_shine
+        texturefile = "gfx/interface/hmb_gfx/fanatics_of_the_nightmare/fanatics_of_the_nightmare_e890ed7d430d4376a3ff064b25f8aeee.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/hmb_gfx/fanatics_of_the_nightmare/fanatics_of_the_nightmare_e890ed7d430d4376a3ff064b25f8aeee.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+}

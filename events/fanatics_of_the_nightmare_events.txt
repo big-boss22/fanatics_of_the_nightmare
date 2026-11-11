@@ -1,0 +1,908 @@
+add_namespace = direstraits
+add_namespace = theplan
+add_namespace = asimplecorrespondance
+add_namespace = overseeingthework
+add_namespace = nightmareempire
+add_namespace = chiropterra_calling
+add_namespace = quietatlast
+add_namespace = the_visit
+add_namespace = thecoup
+add_namespace = aunion
+add_namespace = ourfriend
+add_namespace = stupid_heresy
+add_namespace = ascent_fotn
+add_namespace = thetruth
+add_namespace = nmm_appears
+add_namespace = sorythcalling
+add_namespace = whereisshe
+add_namespace = shadowsend
+add_namespace = dergultimatum
+add_namespace = happinessatlast
+add_namespace = herblessing
+add_namespace = fotn_wedding
+add_namespace = midnightsjoy
+add_namespace = deathofmidnight
+add_namespace = fotn_eqg_whitepeace
+add_namespace = yariakisser
+add_namespace = firstcontact
+add_namespace = endofcontent
+
+country_event = {
+    id = direstraits.1
+    title = direstraits.1.t
+    desc = direstraits.1.d
+    picture = GFX_event_moon
+    is_triggered_only = yes
+    fire_only_once = yes
+    major = yes
+    trigger = {
+        has_completed_focus = my_hoi4_mod_new_focus_tree_focus_28
+    }
+    option = {
+        name = direstraits.1.a
+        ai_chance = {
+            factor = 1
+        }
+        add_ideas = socialist_resistance
+        add_ideas = harmonist_insurrection
+        hidden_effect = {
+            mark_focus_tree_layout_dirty = yes
+        }
+    }
+}
+
+country_event = {
+    id = theplan.1
+    title = theplan.1.t
+    desc = theplan.1.d
+    picture = GFX_event_pony_soldiers
+    is_triggered_only = yes
+    fire_only_once = yes
+    major = yes
+    trigger = {
+        has_completed_focus = FOTN_new_focus_tree_focus_1
+    }
+    option = {
+        name = theplan.1.a
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+country_event = {
+    id = asimplecorrespondance.1
+    title = asimplecorrespondance.1.t
+    desc = asimplecorrespondance.1.d
+    picture = GFX_event_moon
+    is_triggered_only = yes
+    fire_only_once = yes
+    major = yes
+    option = {
+        name = asimplecorrespondance.1.a
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+country_event = {
+    id = overseeingthework.1
+    title = overseeingthework.1.t
+    desc = overseeingthework.1.d
+    picture = GFX_report_event_fanatics_of_the_nightmare_overseeingthework_1
+    is_triggered_only = yes
+    fire_only_once = yes
+    major = yes
+    option = {
+        name = overseeingthework.1.a
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+country_event = {
+    id = nightmareempire.1
+    title = nightmareempire.1.t
+    desc = nightmareempire.1.d
+    picture = GFX_event_night_and_fog
+    is_triggered_only = yes
+    fire_only_once = yes
+    major = yes
+    option = {
+        name = nightmareempire.1.a
+        ai_chance = {
+            factor = 1
+        }
+        character = {
+                    id = character_id_here
+                    add_trait = trait_id_here
+                }
+    }
+    option = {
+        name = nightmareempire.1.b
+        ai_chance = {
+            factor = 1
+        }
+        character = {
+                    id = character_id_here
+                    add_trait = trait_id_here
+                }
+    }
+    option = {
+        name = nightmareempire.1.c
+        ai_chance = {
+            factor = 1
+        }
+        character = {
+                    id = character_id_here
+                    add_trait = trait_id_here
+                }
+    }
+}
+
+country_event = {
+    id = chiropterra_calling.1
+    title = chiropterra_calling.1.t
+    desc = chiropterra_calling.1.d
+    picture = GFX_event_moon
+    is_triggered_only = yes
+    fire_only_once = yes
+    major = yes
+    option = {
+        name = chiropterra_calling.1.a
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+country_event = {
+    id = quietatlast.1
+    title = quietatlast.1.t
+    desc = quietatlast.1.d
+    picture = GFX_event_moon
+    is_triggered_only = yes
+    fire_only_once = yes
+    major = yes
+    option = {
+        name = quietatlast.1.a
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+country_event = {
+    id = the_visit.1
+    title = the_visit.1.t
+    desc = the_visit.1.d
+    picture = GFX_report_event_fanatics_of_the_nightmare_the_visit_1
+    is_triggered_only = yes
+    fire_only_once = yes
+    major = yes
+    option = {
+        name = the_visit.1.a
+        ai_chance = {
+            factor = 1
+        }
+        country_event = {
+            id = the_visit.2
+        }
+    }
+}
+
+country_event = {
+    id = the_visit.2
+    title = the_visit.2.t
+    desc = the_visit.2.d
+    picture = GFX_report_event_generic_truck
+    is_triggered_only = yes
+    fire_only_once = yes
+    major = yes
+    option = {
+        name = the_visit.2.a
+        ai_chance = {
+            factor = 1
+        }
+        country_event = {
+            id = the_visit.3
+        }
+    }
+}
+
+country_event = {
+    id = the_visit.3
+    title = the_visit.3.t
+    desc = the_visit.3.d
+    picture = GFX_event_shanty_town
+    is_triggered_only = yes
+    fire_only_once = yes
+    major = yes
+    option = {
+        name = the_visit.3.a
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+country_event = {
+    id = thecoup.1
+    title = thecoup.1.t
+    desc = thecoup.1.d
+    picture = GFX_event_medieval_city
+    is_triggered_only = yes
+    fire_only_once = yes
+    major = yes
+    option = {
+        name = thecoup.1.a
+        ai_chance = {
+            factor = 1
+        }
+        set_politics = {
+            ruling_party = fascism
+            elections_allowed = no
+        }
+            add_manpower = 30000
+                    set_party_name = {
+                ideology = neutrality
+                long_name = "[BANNED]"
+                name = [BANNED]
+            }
+                        set_party_name = {
+                ideology = democratic
+                long_name = "[BANNED]"
+                name = [BANNED]
+            }
+                        set_party_name = {
+                ideology = communism
+                long_name = "[BANNED]"
+                name = [BANNED]
+            }
+        set_popularities = {
+            fascism = 50
+            communism = 25
+            democratic = 25
+        }
+        promote_character = {
+            character = midnight_spirit1
+            ideology = fascism
+        }
+        add_corps_commander_role = {
+            Character = pcb_flawless_spirit
+            skill = 3
+            attack_skill = 4
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 2
+            traits = { thestral_race_trait promising_general arrow }
+        }
+        add_corps_commander_role = {
+            Character = pcb_thistle_torch
+            skill = 2
+            attack_skill = 3
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 2
+            traits = { kirin_race_trait thestral_race_trait bleeding_heart }
+        }
+        add_corps_commander_role = {
+            Character = pcb_schizophora
+            skill = 2
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 3
+            traits = { changeling_race_trait }
+        }
+        add_corps_commander_role = {
+            Character = pcb_moonbeam
+            skill = 3
+            attack_skill = 2
+            defense_skill = 3
+            planning_skill = 4
+            logistics_skill = 3
+            traits = { night_guard_2 thestral_race_trait }
+        }
+        add_advisor_role = {
+            character = pcb_moonbeam
+            advisor = { 
+                slot = army_chief
+                idea_token = pcb_moonbeam
+                cost = 100
+                can_be_fired = no
+                traits = { army_chief_manuever_2 }
+            }
+        }
+        leave_faction = yes
+        activate_advisor = pcb_flawless_spirit
+        activate_advisor = pcb_thistle_torch
+        activate_advisor = pcb_schizophora
+        activate_advisor = pcb_moonbeam
+        hidden_effect = {
+    load_oob = "PCB_1936"
+}
+    }
+}
+
+country_event = {
+    id = aunion.1
+    title = aunion.1.t
+    desc = aunion.1.d
+    picture = GFX_event_changeling_rally
+    is_triggered_only = yes
+    fire_only_once = yes
+    major = yes
+    option = {
+        name = aunion.1.a
+        ai_chance = {
+            factor = 1
+        }
+        country_event = {
+            id = aunion.3
+        }
+    }
+}
+
+country_event = {
+    id = aunion.3
+    title = aunion.3.t
+    desc = aunion.3.d
+    picture = GFX_report_event_fanatics_of_the_nightmare_aunion_3
+    is_triggered_only = yes
+    fire_only_once = yes
+    major = yes
+    option = {
+        name = aunion.3.a
+        ai_chance = {
+            factor = 1
+        }
+        country_event = {
+            id = aunion.4
+        }
+    }
+}
+
+country_event = {
+    id = aunion.4
+    title = aunion.4.t
+    desc = aunion.4.d
+    picture = GFX_report_event_fanatics_of_the_nightmare_aunion_4
+    is_triggered_only = yes
+    fire_only_once = yes
+    major = yes
+    option = {
+        name = aunion.4.a
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+country_event = {
+    id = ourfriend.1
+    title = ourfriend.1.t
+    desc = ourfriend.1.d
+    picture = GFX_event_chrysalis_parade
+    is_triggered_only = yes
+    fire_only_once = yes
+    major = yes
+    trigger = {
+        has_completed_focus = my_hoi4_mod_new_focus_tree_focus_90_2
+    }
+    option = {
+        name = ourfriend.1.a
+        ai_chance = {
+            factor = 1
+        }
+        complete_national_focus = my_hoi4_mod_new_focus_tree_focus_91_2
+    }
+}
+
+country_event = {
+    id = stupid_heresy.1
+    title = stupid_heresy.1.t
+    desc = stupid_heresy.1.d
+    picture = GFX_event_canterlot_street_winter
+    is_triggered_only = yes
+    fire_only_once = yes
+    major = yes
+    option = {
+        name = stupid_heresy.1.a
+        ai_chance = {
+            factor = 1
+        }
+        add_stability = -0.10
+        add_political_power = -100
+        remove_trait = {
+        character = midnight_spirit1
+            slot = political_advisor
+            trait = my_hoi4_mod_political_trait_1
+        }
+    }
+}
+
+country_event = {
+    id = ascent_fotn.1
+    title = ascent_fotn.1.t
+    desc = ascent_fotn.1.d
+    picture = GFX_event_canterlot
+    is_triggered_only = yes
+    fire_only_once = yes
+    major = yes
+    option = {
+        name = ascent_fotn.1.a
+        ai_chance = {
+            factor = 1
+        }
+        add_country_leader_trait = collaborator_king
+        PCB = { 
+        set_cosmetic_tag = PCB_secular
+        }
+        hidden_effect = {
+        promote_character = {
+            character = midnight_spirit2
+            ideology = nazism
+            }
+        DRG = {
+        set_cosmetic_tag = fotn_seculardergs
+            }
+                                    set_party_name = {
+                ideology = neutrality
+                long_name = "Flawless's Clique"
+                name = FLC
+            }
+                                    set_party_name = {
+                ideology = democratic
+                long_name = "Thistle's Clique"
+                name = TTC
+            }
+            promote_character = {
+            character = pcb_thistle_torch
+            ideology = harmonic_theocracy
+            }
+            promote_character = {
+            character = pcb_flawless_spirit
+            ideology = theocracy_subideology
+            }
+        }
+    }
+}
+
+country_event = {
+    id = thetruth.1
+    title = thetruth.1.t
+    desc = thetruth.1.d
+    picture = GFX_event_moon
+    is_triggered_only = yes
+    fire_only_once = yes
+    major = yes
+    option = {
+        name = thetruth.1.a
+        trigger = {
+            has_completed_focus = my_hoi4_mod_new_focus_tree_focus_92_2
+        }
+        ai_chance = {
+            factor = 1
+        }
+        complete_national_focus = my_hoi4_mod_new_focus_tree_focus_93_2
+    }
+    option = {
+        name = thetruth.1.b
+        trigger = {
+            NOT = {
+                has_completed_focus = my_hoi4_mod_new_focus_tree_focus_92_2
+            }
+        }
+        ai_chance = {
+            factor = 1
+        }
+        complete_national_focus = my_hoi4_mod_new_focus_tree_focus_94
+    }
+}
+
+country_event = {
+    id = nmm_appears.1
+    title = nmm_appears.1.t
+    desc = nmm_appears.1.d
+    picture = GFX_event_nmm_normal
+    is_triggered_only = yes
+    fire_only_once = yes
+    major = yes
+    option = {
+        name = nmm_appears.1.a
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+country_event = {
+    id = sorythcalling.1
+    title = sorythcalling.1.t
+    desc = sorythcalling.1.d
+    picture = GFX_event_changeling_approved_stamp
+    is_triggered_only = yes
+    fire_only_once = yes
+    major = yes
+    option = {
+        name = sorythcalling.1.a
+        ai_chance = {
+            factor = 1
+        }
+        retire_character = EQS_applejack
+    }
+}
+
+country_event = {
+    id = whereisshe.1
+    title = whereisshe.1.t
+    desc = whereisshe.1.d
+    picture = GFX_event_luna_ready_for_war
+    is_triggered_only = yes
+    fire_only_once = yes
+    major = yes
+    option = {
+        name = whereisshe.1.a
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+country_event = {
+    id = shadowsend.1
+    title = shadowsend.1.t
+    desc = shadowsend.1.d
+    picture = GFX_event_changeling_approved_stamp
+    is_triggered_only = yes
+    fire_only_once = yes
+    major = yes
+    option = {
+        name = shadowsend.1.a
+        ai_chance = {
+            factor = 1
+        }
+        retire_character = sour_sweet
+    }
+}
+
+country_event = {
+    id = dergultimatum.1
+    title = dergultimatum.1.t
+    desc = dergultimatum.1.d
+    picture = GFX_event_af23_wasteland2
+    is_triggered_only = yes
+    fire_only_once = yes
+    major = yes
+    option = {
+        name = dergultimatum.1.a
+        ai_chance = {
+            factor = 1
+        }
+        create_wargoal = {
+            target = DRG
+            type = annex_everything
+        }
+    }
+    option = {
+        name = dergultimatum.1.b
+        ai_chance = {
+            factor = 1
+        }
+        random_list = {
+            50 = {
+                country_event = {
+                    id = dergultimatum.2
+                }
+            }
+            50 = { 
+                country_event = {
+                    id = dergultimatum.3
+                }
+            }
+        }
+    }
+}
+
+country_event = {
+    id = dergultimatum.2
+    title = dergultimatum.2.t
+    desc = dergultimatum.2.d
+    picture = GFX_event_changeling_approved_stamp
+    is_triggered_only = yes
+    fire_only_once = yes
+    major = yes
+    option = {
+        name = dergultimatum.2.a
+        ai_chance = {
+            factor = 1
+        }
+        create_wargoal = {
+            target = DRG
+            type = annex_everything
+        }
+    }
+}
+
+country_event = {
+    id = dergultimatum.3
+    title = dergultimatum.3.t
+    desc = dergultimatum.3.d
+    picture = GFX_event_changeling_approved_stamp
+    is_triggered_only = yes
+    fire_only_once = yes
+    major = yes
+    option = {
+        name = dergultimatum.3.a
+        ai_chance = {
+            factor = 1
+        }
+        PCB = {
+        puppet = DRG
+        add_state_core = 17
+        transfer_state = 17
+        }
+        DRG = {
+        set_cosmetic_tag = fotn_dergs
+        }
+    }
+}
+
+country_event = {
+    id = happinessatlast.1
+    title = happinessatlast.1.t
+    desc = happinessatlast.1.d
+    picture = GFX_report_event_fanatics_of_the_nightmare_happinessatlast_1
+    is_triggered_only = yes
+    fire_only_once = yes
+    major = yes
+    option = {
+        name = happinessatlast.1.a
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+country_event = {
+    id = herblessing.1
+    title = herblessing.1.t
+    desc = herblessing.1.d
+    picture = GFX_event_chrysalis_parade
+    is_triggered_only = yes
+    fire_only_once = yes
+    major = yes
+    option = {
+        name = herblessing.1.a
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+country_event = {
+    id = fotn_wedding.1
+    title = fotn_wedding.1.t
+    desc = fotn_wedding.1.d
+    picture = GFX_report_event_fanatics_of_the_nightmare_fotn_wedding_1
+    is_triggered_only = yes
+    fire_only_once = yes
+    major = yes
+    option = {
+        name = fotn_wedding.1.a
+        ai_chance = {
+            factor = 1
+        }
+        country_event = {
+            id = fotn_wedding.2
+        }
+    }
+}
+
+country_event = {
+    id = fotn_wedding.2
+    title = fotn_wedding.2.t
+    desc = fotn_wedding.2.d
+    picture = GFX_report_event_fanatics_of_the_nightmare_fotn_wedding_2
+    is_triggered_only = yes
+    fire_only_once = yes
+    major = yes
+    option = {
+        name = fotn_wedding.2.a
+        ai_chance = {
+            factor = 1
+        }
+        complete_national_focus = fanatics_of_the_nightmare_new_focus_tree_focus_125
+    }
+    option = {
+        name = fotn_wedding.2.b
+        ai_chance = {
+            factor = 1
+        }
+        complete_national_focus = fanatics_of_the_nightmare_new_focus_tree_focus_126
+    }
+}
+
+country_event = {
+    id = midnightsjoy.1
+    title = midnightsjoy.1.t
+    desc = midnightsjoy.1.d
+    picture = GFX_event_moon
+    is_triggered_only = yes
+    fire_only_once = yes
+    major = yes
+    option = {
+        name = midnightsjoy.1.a
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+country_event = {
+    id = deathofmidnight.1
+    title = deathofmidnight.1.t
+    desc = deathofmidnight.1.d
+    picture = GFX_event_crypt
+    is_triggered_only = yes
+    fire_only_once = yes
+    major = yes
+    option = {
+        name = deathofmidnight.1.a
+        ai_chance = {
+            factor = 1
+        }
+        kill_country_leader = yes
+        promote_character = {
+            character = flawless_spirit2
+            ideology = theocracy_subideology
+        }
+            set_politics = {
+                ruling_party = neutrality
+                elections_allowed = no
+            }
+        }
+}
+
+country_event = {
+    id = fotn_eqg_whitepeace.1
+    title = fotn_eqg_whitepeace.1.t
+    desc = fotn_eqg_whitepeace.1.d
+    picture = GFX_report_event_generic_sign_treaty1
+    is_triggered_only = yes
+    fire_only_once = yes
+    hidden = yes
+    trigger = {
+        EQS = {
+        has_capitulated = yes }
+    }
+    option = {
+        name = fotn_eqg_whitepeace.1.a
+        ai_chance = {
+            factor = 1
+        }
+        PCB = {
+        white_peace = EQG
+        }
+    }
+}
+
+country_event = {
+    id = yariakisser.1
+    title = yariakisser.1.t
+    desc = yariakisser.1.d
+    picture = GFX_report_event_fanatics_of_the_nightmare_fotn_wedding_1
+    is_triggered_only = yes
+    fire_only_once = yes
+    major = yes
+    option = {
+        name = yariakisser.1.a
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+country_event = {
+    id = firstcontact.1
+    title = firstcontact.1.t
+    desc = firstcontact.1.d
+    picture = GFX_event_something_in_the_water
+    is_triggered_only = yes
+    fire_only_once = yes
+    major = yes
+    option = {
+        name = firstcontact.1.a
+        ai_chance = {
+            factor = 1
+        }
+        country_event = {
+            id = firstcontact.2
+        }
+
+    }
+}
+
+country_event = {
+    id = firstcontact.2
+    title = firstcontact.2.t
+    desc = firstcontact.2.d
+    picture = GFX_event_something_in_the_water
+    is_triggered_only = yes
+    fire_only_once = yes
+    major = yes
+    option = {
+        name = firstcontact.2.a
+        ai_chance = {
+            factor = 1
+        }
+        country_event = {
+            id = firstcontact.3
+        }
+
+    }
+}
+country_event = {
+    id = firstcontact.3
+    title = firstcontact.3.t
+    desc = firstcontact.3.d
+    picture = GFX_event_something_in_the_water
+    is_triggered_only = yes
+    fire_only_once = yes
+    major = yes
+    option = {
+        name = firstcontact.3.a
+        ai_chance = {
+            factor = 1
+        }
+        country_event = {
+            id = firstcontact.4
+        }
+
+    }
+}
+country_event = {
+    id = endofcontent.1
+    title = endofcontent.1.t
+    desc = endofcontent.1.d
+    picture = GFX_event_bat_soldier
+    is_triggered_only = yes
+    fire_only_once = yes
+    major = yes
+    option = {
+        name = endofcontent.1.a
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+country_event = {
+    id = firstcontact.4
+    title = firstcontact.4.t
+    desc = firstcontact.4.d
+    picture = e
+    is_triggered_only = yes
+    fire_only_once = yes
+    major = yes
+    option = {
+        name = firstcontact.4.a
+        ai_chance = {
+            factor = 1
+        }
+        PCB = {
+                        diplomatic_relation = {
+            country = CHN
+            relation = non_aggression_pact
+            active = yes
+            }
+            diplomatic_relation = {
+            country = CHN
+            relation = military_access
+            active = yes
+            }
+        }
+    }
+}

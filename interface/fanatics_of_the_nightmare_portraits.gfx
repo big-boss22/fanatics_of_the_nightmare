@@ -1,0 +1,90 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_portrait_fanatics_of_the_nightmare_midnight_spirit1
+        texturefile = "gfx/leaders/fanatics_of_the_nightmare/fanatics_of_the_nightmare_midnight_spirit1_large.dds"
+    }
+    spriteType = {
+        name = GFX_idea_fanatics_of_the_nightmare_midnight_spirit1
+        texturefile = "gfx/leaders/fanatics_of_the_nightmare/fanatics_of_the_nightmare_midnight_spirit1_small.dds"
+    }
+    spriteType = {
+        name = GFX_portrait_fanatics_of_the_nightmare_sour_sweet
+        texturefile = "gfx/leaders/fanatics_of_the_nightmare/fanatics_of_the_nightmare_sour_sweet_large.dds"
+    }
+    spriteType = {
+        name = GFX_idea_fanatics_of_the_nightmare_sour_sweet
+        texturefile = "gfx/leaders/fanatics_of_the_nightmare/fanatics_of_the_nightmare_sour_sweet_small.dds"
+    }
+    spriteType = {
+        name = GFX_portrait_fanatics_of_the_nightmare_pcb_flawless_spirit
+        texturefile = "gfx/leaders/fanatics_of_the_nightmare/fanatics_of_the_nightmare_pcb_flawless_spirit_large.dds"
+    }
+    spriteType = {
+        name = GFX_idea_fanatics_of_the_nightmare_pcb_flawless_spirit
+        texturefile = "gfx/leaders/fanatics_of_the_nightmare/fanatics_of_the_nightmare_pcb_flawless_spirit_small.dds"
+    }
+    spriteType = {
+        name = GFX_portrait_fanatics_of_the_nightmare_pcb_thistle_torch
+        texturefile = "gfx/leaders/fanatics_of_the_nightmare/fanatics_of_the_nightmare_pcb_thistle_torch_large.dds"
+    }
+    spriteType = {
+        name = GFX_idea_fanatics_of_the_nightmare_pcb_thistle_torch
+        texturefile = "gfx/leaders/fanatics_of_the_nightmare/fanatics_of_the_nightmare_pcb_thistle_torch_small.dds"
+    }
+    spriteType = {
+        name = GFX_portrait_fanatics_of_the_nightmare_pcb_schizophora
+        texturefile = "gfx/leaders/fanatics_of_the_nightmare/fanatics_of_the_nightmare_pcb_schizophora_large.dds"
+    }
+    spriteType = {
+        name = GFX_idea_fanatics_of_the_nightmare_pcb_schizophora
+        texturefile = "gfx/leaders/fanatics_of_the_nightmare/fanatics_of_the_nightmare_pcb_schizophora_small.dds"
+    }
+    spriteType = {
+        name = GFX_portrait_fanatics_of_the_nightmare_pcb_ponse_cocktail
+        texturefile = "gfx/leaders/fanatics_of_the_nightmare/fanatics_of_the_nightmare_pcb_ponse_cocktail_large.dds"
+    }
+    spriteType = {
+        name = GFX_idea_fanatics_of_the_nightmare_pcb_ponse_cocktail
+        texturefile = "gfx/leaders/fanatics_of_the_nightmare/fanatics_of_the_nightmare_pcb_ponse_cocktail_small.dds"
+    }
+    spriteType = {
+        name = GFX_portrait_fanatics_of_the_nightmare_midnight_spirit2
+        texturefile = "gfx/leaders/fanatics_of_the_nightmare/fanatics_of_the_nightmare_midnight_spirit2_large.dds"
+    }
+    spriteType = {
+        name = GFX_idea_fanatics_of_the_nightmare_midnight_spirit2
+        texturefile = "gfx/leaders/fanatics_of_the_nightmare/fanatics_of_the_nightmare_midnight_spirit2_small.dds"
+    }
+    spriteType = {
+        name = GFX_portrait_fanatics_of_the_nightmare_drg_Ember1
+        texturefile = "gfx/leaders/fanatics_of_the_nightmare/fanatics_of_the_nightmare_drg_Ember1_large.dds"
+    }
+    spriteType = {
+        name = GFX_idea_fanatics_of_the_nightmare_drg_Ember1
+        texturefile = "gfx/leaders/fanatics_of_the_nightmare/fanatics_of_the_nightmare_drg_Ember1_small.dds"
+    }
+    spriteType = {
+        name = GFX_portrait_fanatics_of_the_nightmare_drg_ember2
+        texturefile = "gfx/leaders/fanatics_of_the_nightmare/fanatics_of_the_nightmare_drg_ember2_large.dds"
+    }
+    spriteType = {
+        name = GFX_idea_fanatics_of_the_nightmare_drg_ember2
+        texturefile = "gfx/leaders/fanatics_of_the_nightmare/fanatics_of_the_nightmare_drg_ember2_small.dds"
+    }
+    spriteType = {
+        name = GFX_portrait_fanatics_of_the_nightmare_flawless_spirit2
+        texturefile = "gfx/leaders/fanatics_of_the_nightmare/fanatics_of_the_nightmare_flawless_spirit2_large.dds"
+    }
+    spriteType = {
+        name = GFX_idea_fanatics_of_the_nightmare_flawless_spirit2
+        texturefile = "gfx/leaders/fanatics_of_the_nightmare/fanatics_of_the_nightmare_flawless_spirit2_small.dds"
+    }
+    spriteType = {
+        name = GFX_portrait_fanatics_of_the_nightmare_pcb_moonbeam
+        texturefile = "gfx/leaders/fanatics_of_the_nightmare/pcb_moonbeam_large.dds"
+    }
+    spriteType = {
+        name = GFX_idea_fanatics_of_the_nightmare_pcb_moonbeam
+        texturefile = "gfx/leaders/fanatics_of_the_nightmare/pcb_moonbeam_small.dds"
+    }
+}

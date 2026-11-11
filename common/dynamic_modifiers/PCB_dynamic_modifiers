@@ -1,0 +1,4 @@
+boosted_war_participation_modifier = {
+    # This doubles your calculated war participation contribution
+    war_participation_factor = 2.00 
+}

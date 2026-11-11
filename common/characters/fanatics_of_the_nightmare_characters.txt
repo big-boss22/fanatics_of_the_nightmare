@@ -1,0 +1,230 @@
+characters = {
+midnight_spirit1 = {
+    name = midnight_spirit1
+    portraits = {
+        civilian = {
+            large = GFX_portrait_fanatics_of_the_nightmare_midnight_spirit1
+            small = GFX_idea_fanatics_of_the_nightmare_midnight_spirit1
+        }
+    }
+    country_leader = {
+        desc = midnight_spirit1_desc
+        ideology = stratocracy
+        traits = { my_hoi4_mod_political_trait_1 mercenary_commander_leaderfotn larplarp_sahur }
+        expire = "1965.1.1"
+        id = -1
+    }
+    field_marshal = {
+        traits = { mercenary_commanderfotn thestral_race_trait arrow renowned_marksman, night_guard_2 }
+        skill = 5
+        attack_skill = 6
+        defense_skill = 3
+        planning_skill = 4
+        logistics_skill = 7
+        visible = {
+            has_government = fascism
+        }
+        legacy_id = -1
+    }
+}
+    sour_sweet = {
+        name = sour_sweet
+        portraits = {
+            civilian = {
+                large = GFX_portrait_fanatics_of_the_nightmare_sour_sweet
+                small = GFX_idea_fanatics_of_the_nightmare_sour_sweet
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            idea_token = sour_sweet
+            cost = 150
+            allowed = {
+                original_tag = PCB
+                has_completed_focus = my_hoi4_mod_new_focus_tree_focus_69
+                NOT = {
+                    has_completed_focus = my_hoi4_mod_new_focus_tree_focus_95
+                }
+            }
+            visible = {
+                has_completed_focus = my_hoi4_mod_new_focus_tree_focus_69
+                NOT = {
+                    has_completed_focus = my_hoi4_mod_new_focus_tree_focus_95
+                }
+            }
+            can_be_fired = no
+            traits = { my_hoi4_mod_political_trait_2 }
+        }
+        field_marshal = {
+            skill = 1
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 6
+            logistics_skill = 6
+            visible = {
+                has_completed_focus = my_hoi4_mod_new_focus_tree_focus_69
+                NOT = {
+                    has_completed_focus = my_hoi4_mod_new_focus_tree_focus_95
+                }
+            }
+            legacy_id = -1
+        }
+    }
+    pcb_flawless_spirit = {
+        name = pcb_flawless_spirit
+        portraits = {
+            civilian = {
+                large = GFX_portrait_fanatics_of_the_nightmare_pcb_flawless_spirit
+                small = GFX_idea_fanatics_of_the_nightmare_pcb_flawless_spirit
+            }
+        }
+        country_leader = {
+            ideology = theocracy_subideology
+        }
+        advisor = {
+            slot = political_advisor
+            idea_token = pcb_flawless_spirit
+            cost = 100
+            allowed = {
+                original_tag = PCB
+                has_completed_focus = my_hoi4_mod_new_focus_tree_focus_2
+            }
+            visible = {
+                has_completed_focus = my_hoi4_mod_new_focus_tree_focus_2
+            }
+            can_be_fired = no
+            traits = { my_hoi4_mod_political_trait_4 }
+        }
+    }
+    pcb_thistle_torch = {
+        name = pcb_thistle_torch
+        portraits = {
+            civilian = {
+                large = GFX_portrait_fanatics_of_the_nightmare_pcb_thistle_torch
+                small = GFX_idea_fanatics_of_the_nightmare_pcb_thistle_torch
+            }
+        }
+        country_leader = {
+            ideology = harmonic_theocracy
+        }
+        advisor = {
+            slot = political_advisor
+            idea_token = pcb_thistle_torch
+            cost = 100
+            allowed = {
+                original_tag = PCB
+                has_completed_focus = my_hoi4_mod_new_focus_tree_focus_2
+            }
+            visible = {
+                has_completed_focus = my_hoi4_mod_new_focus_tree_focus_2
+            }
+            can_be_fired = no
+            traits = { my_hoi4_mod_political_trait_6 }
+        }
+    }
+    pcb_schizophora = {
+        name = pcb_schizophora
+        portraits = {
+            civilian = {
+                large = GFX_portrait_fanatics_of_the_nightmare_pcb_schizophora
+                small = GFX_idea_fanatics_of_the_nightmare_pcb_schizophora
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            idea_token = pcb_schizophora
+            cost = 100
+            allowed = {
+                original_tag = PCB
+                has_completed_focus = my_hoi4_mod_new_focus_tree_focus_2
+            }
+            visible = {
+                has_completed_focus = my_hoi4_mod_new_focus_tree_focus_2
+            }
+            traits = { head_of_intelligence }
+        }
+    }
+    pcb_ponse_cocktail = {
+        name = pcb_ponse_cocktail
+        portraits = {
+            civilian = {
+                large = GFX_portrait_fanatics_of_the_nightmare_pcb_ponse_cocktail
+                small = GFX_idea_fanatics_of_the_nightmare_pcb_ponse_cocktail
+            }
+        }
+        country_leader = {
+            ideology = conservatism
+            expire = "1965.1.1"
+            id = -1
+        }
+    }
+    midnight_spirit2 = {
+        name = midnight_spirit2
+        portraits = {
+            civilian = {
+                large = GFX_portrait_fanatics_of_the_nightmare_midnight_spirit2
+                small = GFX_idea_fanatics_of_the_nightmare_midnight_spirit2
+            }
+        }
+        country_leader = {
+            ideology = nazism
+            traits = { mercenary_commander_leaderfotn friend_of_changelingia collaborator_king larplarp_sahur }
+            expire = "1965.1.1"
+            id = -1
+        }
+    }
+    drg_Ember1 = {
+        name = drg_Ember1
+        portraits = {
+            civilian = {
+                large = GFX_portrait_fanatics_of_the_nightmare_drg_Ember1
+                small = GFX_idea_fanatics_of_the_nightmare_drg_Ember1
+            }
+        }
+        country_leader = {
+            ideology = conservatism
+            traits = { DRG_dragonlord }
+            expire = "1965.1.1"
+            id = -1
+        }
+    }
+    drg_ember2 = {
+        name = drg_ember2
+        portraits = {
+            civilian = {
+                large = GFX_portrait_fanatics_of_the_nightmare_drg_ember2
+                small = GFX_idea_fanatics_of_the_nightmare_drg_ember2
+            }
+        }
+        country_leader = {
+            ideology = nazism
+            traits = { DRG_dragonlord }
+            expire = "1965.1.1"
+            id = -1
+        }
+    }
+    flawless_spirit2 = {
+        name = flawless_spirit2
+        portraits = {
+            civilian = {
+                large = GFX_portrait_fanatics_of_the_nightmare_flawless_spirit2
+                small = GFX_idea_fanatics_of_the_nightmare_flawless_spirit2
+            }
+        }
+        country_leader = {
+            ideology = theocracy_subideology
+            traits = { my_hoi4_mod_political_trait_4 }
+            expire = "1965.1.1"
+            id = -1
+        }
+    }
+    pcb_moonbeam = {
+        name = pcb_moonbeam
+        portraits = {
+            civilian = {
+                large = GFX_portrait_fanatics_of_the_nightmare_pcb_moonbeam
+                small = GFX_idea_fanatics_of_the_nightmare_pcb_moonbeam
+            }
+        }
+    }
+}

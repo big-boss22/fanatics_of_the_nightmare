@@ -1,0 +1,39 @@
+capital = 7
+set_research_slots = 2
+set_convoys = 11
+set_stability = 0.5
+set_war_support = 0.5
+recruit_character = drg_Ember1
+recruit_character = drg_ember2
+
+# Additional starting history effects
+set_technology = {
+    dragons_light = 1
+    dragons_heavy = 1
+    melee_weapons = 1
+    dragon_race = 1
+}
+actually_fix_weapon_techs = yes
+generic_DD_template = yes
+generic_CL_template = yes
+set_country_flag = has_custom_advisors
+add_ideas = { tribal_society }
+set_rule = {
+    can_generate_female_aces = yes
+    can_generate_female_unit_leaders = yes
+    can_generate_female_country_leaders = yes
+}
+
+# Politics selected in the builder
+set_politics = {
+    ruling_party = democratic
+    last_election = "1000.10.10"
+    election_frequency = 36
+    elections_allowed = no
+}
+set_popularities = {
+    democratic = 32
+    fascism = 24
+    communism = 0
+    neutrality = 44
+}

@@ -1,0 +1,30 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_report_event_fanatics_of_the_nightmare_overseeingthework_1
+        texturefile = "gfx/event_pictures/fanatics_of_the_nightmare/fanatics_of_the_nightmare_overseeingthework_1.dds"
+    }
+    spriteType = {
+        name = GFX_report_event_fanatics_of_the_nightmare_the_visit_1
+        texturefile = "gfx/event_pictures/fanatics_of_the_nightmare/fanatics_of_the_nightmare_the_visit_1.dds"
+    }
+    spriteType = {
+        name = GFX_report_event_fanatics_of_the_nightmare_aunion_3
+        texturefile = "gfx/event_pictures/fanatics_of_the_nightmare/fanatics_of_the_nightmare_aunion_3.dds"
+    }
+    spriteType = {
+        name = GFX_report_event_fanatics_of_the_nightmare_aunion_4
+        texturefile = "gfx/event_pictures/fanatics_of_the_nightmare/fanatics_of_the_nightmare_aunion_4.dds"
+    }
+    spriteType = {
+        name = GFX_report_event_fanatics_of_the_nightmare_happinessatlast_1
+        texturefile = "gfx/event_pictures/fanatics_of_the_nightmare/fanatics_of_the_nightmare_happinessatlast_1.dds"
+    }
+    spriteType = {
+        name = GFX_report_event_fanatics_of_the_nightmare_fotn_wedding_1
+        texturefile = "gfx/event_pictures/fanatics_of_the_nightmare/fanatics_of_the_nightmare_fotn_wedding_1.dds"
+    }
+    spriteType = {
+        name = GFX_report_event_fanatics_of_the_nightmare_fotn_wedding_2
+        texturefile = "gfx/event_pictures/fanatics_of_the_nightmare/fanatics_of_the_nightmare_fotn_wedding_2.dds"
+    }
+}
